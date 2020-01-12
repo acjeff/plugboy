@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
       spotLight.target.position.x = x;
 
       var material = new THREE.MeshPhongMaterial({
-        color: 0xffffff,
+        color: 0x000000,
         shininess: 10,
         specular: 0xffffff
       });
@@ -129,9 +129,16 @@ document.addEventListener('DOMContentLoaded', function () {
       renderer.setPixelRatio(window.devicePixelRatio);
       renderer.setSize(window.innerWidth, window.innerHeight);
       renderer.shadowMap.enabled = true;
-      renderer.shadowMap.type = THREE.BasicShadowMap;
+      renderer.shadowMap.type = THREE.PCFShadowMap;
       // Mouse control
-      // clock = new THREE.Clock();
+      var loader = new GLTFLoader();
+      loader.load( 'models/gltf/RobotExpressive/RobotExpressive.glb', function ( gltf ) {
+        model = gltf.scene;
+        scene.add( model );
+        createGUI( model, gltf.animations );
+      }, undefined, function ( e ) {
+        console.error( e );
+      } );
     }
 
     function onWindowResize() {
@@ -156,10 +163,10 @@ document.addEventListener('DOMContentLoaded', function () {
       }
       if (jumping) {
         if (jumpFrame < (jumpFrameCount / 2)) {
-          charYChange = 0.2;
+          charYChange = 1;
           jumpFrame += 1
         } else if ((jumpFrame >= (jumpFrameCount / 2)) && (jumpFrame < jumpFrameCount)) {
-          charYChange = -0.2;
+          charYChange = - 1;
           jumpFrame += 1
         } else if (jumpFrame >= jumpFrameCount) {
           charYChange = 0;
@@ -177,7 +184,6 @@ document.addEventListener('DOMContentLoaded', function () {
         charYChange = 0;
       }
       _.each(spotlights, function (spot) {
-        console.log(spot.target, ' : spot.target');
         if (countup) {
           spot.target.position.x += 0.01;
           swingAmount += 0.01;
@@ -197,14 +203,9 @@ document.addEventListener('DOMContentLoaded', function () {
       renderer.render(scene, camera);
     }
 
-    function renderShadowMapViewers() {
-    }
 
     function render() {
-      // var delta = clock.getDelta();
       renderScene();
-      renderShadowMapViewers();
-
     }
 
   } catch (e) {
