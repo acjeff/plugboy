@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "483a7a58-a3dc-4fb6-afaf-74e887502bc1",
+            "Value": {
+                "id": "0b1c7a52-509f-42ad-b984-1445238fb63f",
+                "resourcePath": "sprites\/sSurfaceWall\/sSurfaceWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5aaeb093-930a-417d-9fed-5ceccb177bcf",
             "Value": {
                 "id": "49abf06a-973d-4505-9358-fe76e65266d4",
