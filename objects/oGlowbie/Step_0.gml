@@ -8,9 +8,10 @@ else if (oPlayer.PlayerDirection == "right") {
 	followDirectionY = -100;
 }
 
-targetX = oPlayer.x + followDirectionX;
-targetY = oPlayer.y + followDirectionY;
-
+if (!global.playingCutScene) {
+	targetX = oPlayer.x + followDirectionX;
+	targetY = oPlayer.y + followDirectionY;
+}
 
 // Update object position
 x += ((targetX + random_range(0, 20)) - x) / (random_range(15, 50));

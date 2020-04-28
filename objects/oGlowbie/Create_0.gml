@@ -1,3 +1,3 @@
-followDirectionX = 50;
-followDirectionY = -50;
+followDirectionX = 100;
+followDirectionY = -100;
 lightSize = 251;

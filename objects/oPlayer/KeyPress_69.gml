@@ -1,0 +1,1 @@
+if (global.playingCutScene) EndCutScene();

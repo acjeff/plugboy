@@ -1,2 +1,2 @@
 /// @desc Move left
-PlayerDirection = "left";
+if (!global.playingCutScene) PlayerDirection = "left";

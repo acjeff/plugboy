@@ -9,7 +9,7 @@ rightDirY = y-32;
 jumpDirX = x;
 jumpDirY = y-64;
 
-if (touchingGround || Jumping) {
+if ((touchingGround || Jumping) && !global.playingCutScene) {
 	if (PlayerDirection == "left") {
 		show_debug_message("move left");
 		physics_apply_force(leftDirX, leftDirY, -150, 0);

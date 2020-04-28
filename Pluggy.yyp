@@ -63,6 +63,22 @@
             }
         },
         {
+            "Key": "26501657-aeab-42ef-acd0-ff16b10d83ca",
+            "Value": {
+                "id": "16f16544-422a-444a-ab17-cbc276b97375",
+                "resourcePath": "scripts\/PlayCutScene\/PlayCutScene.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "287b5fb2-1477-4754-8240-af6cd738fa69",
+            "Value": {
+                "id": "3e8259e0-41c9-4e0a-a95f-1f64bacfc09a",
+                "resourcePath": "objects\/oCutSceneTrigger\/oCutSceneTrigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2e3d566a-cb41-4d88-b109-5aae6989e254",
             "Value": {
                 "id": "69feb162-db18-4018-b270-d532e6b019dd",
@@ -167,6 +183,22 @@
             }
         },
         {
+            "Key": "7ae87b5c-b20a-41cd-85bc-1a25a5163d47",
+            "Value": {
+                "id": "4e63cd89-55a1-4ac2-837a-f2ff1a1f4b53",
+                "resourcePath": "scripts\/SendGlowbie\/SendGlowbie.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "897ce55a-78f1-4650-8a6a-3419ec7b8b56",
+            "Value": {
+                "id": "2eb068da-376a-4b97-a32d-51f4f4284565",
+                "resourcePath": "scripts\/ShowDialogue\/ShowDialogue.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "98b0c9dc-4e4e-4434-a951-cf8f69780b75",
             "Value": {
                 "id": "14b044d6-bc01-4e78-90f9-b2b65c0e9362",
@@ -228,14 +260,6 @@
                 "id": "4da5c3f9-f13c-4ee2-b1c4-3d2ff81bd012",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "c2d3ae23-5517-4668-b548-0f1cf755232d",
-            "Value": {
-                "id": "57288aa8-56ea-4ae1-ae16-9696dcd9ea30",
-                "resourcePath": "tilesets\/tileset0\/tileset0.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
@@ -303,6 +327,14 @@
             }
         },
         {
+            "Key": "f6471d35-543c-49bd-a688-088279198b69",
+            "Value": {
+                "id": "a0fc9b4f-a188-4dc1-8a97-7f0f5761dbce",
+                "resourcePath": "scripts\/EndCutScene\/EndCutScene.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fdb5434b-e096-4245-a7b7-96b9a8a0d80e",
             "Value": {
                 "id": "e443fb56-d80e-42f3-aa05-1692478dc8d8",
@@ -312,7 +344,11 @@
         }
     ],
     "script_order": [
-        "fdb5434b-e096-4245-a7b7-96b9a8a0d80e"
+        "fdb5434b-e096-4245-a7b7-96b9a8a0d80e",
+        "26501657-aeab-42ef-acd0-ff16b10d83ca",
+        "7ae87b5c-b20a-41cd-85bc-1a25a5163d47",
+        "897ce55a-78f1-4650-8a6a-3419ec7b8b56",
+        "f6471d35-543c-49bd-a688-088279198b69"
     ],
     "tutorial": ""
 }
