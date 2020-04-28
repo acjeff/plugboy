@@ -1,3 +1,3 @@
 if (Jumping == 0 && touchingGround) {
-	Jumping = 10;
+	Jumping = 12;
 }

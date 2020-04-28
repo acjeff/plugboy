@@ -1,0 +1,1 @@
+GenerateLight(x, y, lightSize, c_white);

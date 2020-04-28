@@ -1,1 +1,1 @@
-GenerateLight(x, y, 300, c_red);
+GenerateLight(x, y, 800, c_red);

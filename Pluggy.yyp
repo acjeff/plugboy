@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "75c132dc-f9ee-41ab-ba8c-3cc35c78fb7b",
+            "Value": {
+                "id": "ee11c7f8-db8d-458f-86d2-88c2762ef0f3",
+                "resourcePath": "objects\/oGlowbie\/oGlowbie.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "75cebaad-44e1-45d2-9f50-cc27306ba280",
             "Value": {
                 "id": "2630379d-4c3b-42a2-a357-c89b8cfec331",
