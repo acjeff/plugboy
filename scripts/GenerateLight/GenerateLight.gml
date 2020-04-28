@@ -1,0 +1,10 @@
+size = argument2;
+view_x = camera_get_view_x(view_camera[0]);
+view_y = camera_get_view_y(view_camera[0]);
+attatchToX = argument0;
+attatchToY = argument1;
+gpu_set_blendmode(bm_subtract);
+surface_set_target(global.light);
+draw_ellipse_color(attatchToX - size / 2 - view_x, attatchToY - size / 2 - view_y, attatchToX + size / 2 - view_x, attatchToY + size / 2 - view_y, c_white, c_black, false);
+surface_reset_target();
+gpu_set_blendmode(bm_normal);

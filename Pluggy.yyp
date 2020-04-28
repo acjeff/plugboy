@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "6186119e-b999-42be-b24a-bd3b3fd84b8c",
+            "Value": {
+                "id": "1b642902-af73-4f6f-a29f-1fe1d087bfe2",
+                "resourcePath": "sprites\/sSpotLight\/sSpotLight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "71252e4c-4bf8-4266-88ec-0e0954adaa48",
             "Value": {
                 "id": "81d8080b-ae6e-49e8-aa4a-d808bd7a45e4",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "c2d3ae23-5517-4668-b548-0f1cf755232d",
+            "Value": {
+                "id": "57288aa8-56ea-4ae1-ae16-9696dcd9ea30",
+                "resourcePath": "tilesets\/tileset0\/tileset0.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "c606f888-4dd8-4f72-9186-0e2365dc006f",
             "Value": {
                 "id": "210fa0cf-29bf-4b7d-800e-681f324f1b8c",
@@ -239,6 +255,14 @@
             }
         },
         {
+            "Key": "d408400e-d296-4b9c-8bb9-eca6547c78e9",
+            "Value": {
+                "id": "0411e26b-dcbe-4f54-8fab-4d48600de697",
+                "resourcePath": "objects\/oSpotLight\/oSpotLight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d8b62690-adb0-4660-a2cd-5f45ccbb7649",
             "Value": {
                 "id": "5edb91ea-4ae6-439f-b47c-8766e2f6ad11",
@@ -261,10 +285,18 @@
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "fdb5434b-e096-4245-a7b7-96b9a8a0d80e",
+            "Value": {
+                "id": "e443fb56-d80e-42f3-aa05-1692478dc8d8",
+                "resourcePath": "scripts\/GenerateLight\/GenerateLight.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        
+        "fdb5434b-e096-4245-a7b7-96b9a8a0d80e"
     ],
     "tutorial": ""
 }
