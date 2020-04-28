@@ -1,0 +1,9 @@
+Jumping = 0;
+PlayerDirection = 0;
+touchingGround = false;
+leftDirX = 0;
+leftDirY = 0;
+rightDirX = 0;
+rightDirY = 0;
+jumpDirX = 0;
+jumpDirY = 0;
