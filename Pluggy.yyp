@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "3ae0d53c-eb2f-43a2-83ae-a47d9f76197c",
+            "Value": {
+                "id": "6e729184-7c9c-46c5-b1c3-36fc019b6efb",
+                "resourcePath": "objects\/oLighting\/oLighting.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3b6482dc-d0d7-40e9-a3de-b038f96944ad",
             "Value": {
                 "id": "845bd5cf-4eaf-46af-8600-3c8242e7bc64",
