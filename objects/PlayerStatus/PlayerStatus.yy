@@ -1,38 +1,38 @@
 {
-    "id": "3ae0d53c-eb2f-43a2-83ae-a47d9f76197c",
+    "id": "03fbc7f4-9841-4e99-8b51-09fd6b4cab12",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oLighting",
+    "name": "PlayerStatus",
     "eventList": [
         {
-            "id": "35a9ef1d-4dae-4f57-83b7-3fb84db07f7b",
+            "id": "07818652-876e-4fe7-970d-6be44d46f2ff",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "03fbc7f4-9841-4e99-8b51-09fd6b4cab12"
+        },
+        {
+            "id": "394cdb69-afe1-4ef7-92f3-01d001fc8b9c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "3ae0d53c-eb2f-43a2-83ae-a47d9f76197c"
+            "m_owner": "03fbc7f4-9841-4e99-8b51-09fd6b4cab12"
         },
         {
-            "id": "71810e22-1ecd-4860-ba5a-345f3feed839",
+            "id": "6f45b1b8-afbf-403c-a4e4-0ba826fbb0c3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "3ae0d53c-eb2f-43a2-83ae-a47d9f76197c"
-        },
-        {
-            "id": "8a70654d-c04b-484b-a1c5-591852c9ea06",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "3ae0d53c-eb2f-43a2-83ae-a47d9f76197c"
+            "m_owner": "03fbc7f4-9841-4e99-8b51-09fd6b4cab12"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

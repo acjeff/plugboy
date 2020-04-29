@@ -1,2 +1,2 @@
 color = c_red;
-lightSize = 251;
+lightSize = 801;

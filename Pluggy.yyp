@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "03fbc7f4-9841-4e99-8b51-09fd6b4cab12",
+            "Value": {
+                "id": "699f19d3-d531-4e68-a849-fc8aeba8e632",
+                "resourcePath": "objects\/PlayerStatus\/PlayerStatus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "04d345b5-4da7-460d-86f2-60a5164030b2",
             "Value": {
                 "id": "cf6887fb-d139-4af7-8700-60d374a67196",
@@ -63,11 +71,43 @@
             }
         },
         {
+            "Key": "0c38b594-73b4-4240-be03-48e8d54e8b90",
+            "Value": {
+                "id": "b7c41f95-c63c-45c1-863c-8b4be15f0075",
+                "resourcePath": "sprites\/sInstaDeath\/sInstaDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14012ca3-45ed-4305-9653-4f47120f2c8e",
             "Value": {
                 "id": "22f6ff10-aa09-4110-9e8d-afb515b49969",
                 "resourcePath": "objects\/oPlayer\/oPlayer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1408debe-d718-479f-ac13-980babbc5853",
+            "Value": {
+                "id": "668586fc-6047-4573-bc1e-ce557c203e5a",
+                "resourcePath": "scripts\/PlayerDeath\/PlayerDeath.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1bd40095-a467-4d11-b474-0e6073905721",
+            "Value": {
+                "id": "249319da-8cea-4457-8d81-f946f2303711",
+                "resourcePath": "fonts\/StandardFont\/StandardFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "24358121-2e83-49f0-8ab8-78ae613a07a8",
+            "Value": {
+                "id": "e5b74b79-53e4-44b6-b166-17014de55a9c",
+                "resourcePath": "sprites\/sCheckpoint\/sCheckpoint.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -167,6 +207,14 @@
             }
         },
         {
+            "Key": "6aee7be5-c3d8-49cd-a75d-92da112522ef",
+            "Value": {
+                "id": "498fb391-2e37-4abe-ae20-78b4edc46ffd",
+                "resourcePath": "views\/6aee7be5-c3d8-49cd-a75d-92da112522ef.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "71252e4c-4bf8-4266-88ec-0e0954adaa48",
             "Value": {
                 "id": "81d8080b-ae6e-49e8-aa4a-d808bd7a45e4",
@@ -220,6 +268,14 @@
                 "id": "329f5dbb-de9d-4803-8356-92fceb3a96c7",
                 "resourcePath": "sprites\/sCutscene\/sCutscene.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9ad91728-c483-4e91-ba73-dc0d2af236d5",
+            "Value": {
+                "id": "9dab8d84-8546-4713-a0d5-50ff6cb01759",
+                "resourcePath": "objects\/oCheckpoint\/oCheckpoint.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -319,6 +375,14 @@
             }
         },
         {
+            "Key": "cb82a81f-4494-4038-9188-8585fe5abaa7",
+            "Value": {
+                "id": "a2b22e73-28d3-4119-b909-8662286177ff",
+                "resourcePath": "fonts\/GameOverFont\/GameOverFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "2ab07091-1e61-4230-bd1a-21dceb14c67b",
@@ -399,6 +463,14 @@
             }
         },
         {
+            "Key": "f7b87d2a-30a2-4caf-92af-ee20c2d1aa4d",
+            "Value": {
+                "id": "855b07ce-7a01-4d85-8cdb-185e6680be65",
+                "resourcePath": "objects\/InstaDeathObj\/InstaDeathObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fdb5434b-e096-4245-a7b7-96b9a8a0d80e",
             "Value": {
                 "id": "e443fb56-d80e-42f3-aa05-1692478dc8d8",
@@ -418,7 +490,8 @@
         "0756ee3a-c100-4787-83d3-bfbef537a5dd",
         "b8444695-7f96-4b6c-85ce-921dac75a0dd",
         "f15a67fc-d8c4-4def-a3ed-4c60383bbc16",
-        "e6f3e8a5-a4eb-42cf-86a1-d76e42b88191"
+        "e6f3e8a5-a4eb-42cf-86a1-d76e42b88191",
+        "1408debe-d718-479f-ac13-980babbc5853"
     ],
     "tutorial": ""
 }

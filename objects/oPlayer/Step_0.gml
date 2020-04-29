@@ -25,3 +25,7 @@ if ((touchingGround || Jumping) && !global.freezeMovement) {
 		physics_apply_force(x, y-32, 0, 0);
 	}
 }
+
+if (y > room_height) {
+	global.life = 0;
+}

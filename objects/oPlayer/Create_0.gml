@@ -1,4 +1,6 @@
 global.freezeMovement = false;
+color = c_white;
+lightSize = 200;
 Jumping = 0;
 PlayerDirection = 0;
 touchingGround = false;

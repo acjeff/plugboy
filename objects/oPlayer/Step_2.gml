@@ -1,1 +1,1 @@
-//GenerateLight(x - 32, y, 500);
+GenerateLight(x, y-32, lightSize, color);
