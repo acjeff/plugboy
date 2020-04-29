@@ -1,8 +1,8 @@
 {
-    "id": "cab82bfc-286e-4135-a994-e0a3cb252bc7",
+    "id": "f15a67fc-d8c4-4def-a3ed-4c60383bbc16",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "PlayCutScene",
+    "name": "AddRealGlowbie",
     "IsCompatibility": false,
     "IsDnD": false
 }

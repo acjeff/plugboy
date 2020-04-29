@@ -1,8 +1,8 @@
 {
-    "id": "cab82bfc-286e-4135-a994-e0a3cb252bc7",
+    "id": "0756ee3a-c100-4787-83d3-bfbef537a5dd",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "PlayCutScene",
+    "name": "CutSceneWait",
     "IsCompatibility": false,
     "IsDnD": false
 }

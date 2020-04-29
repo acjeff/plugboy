@@ -1,8 +1,8 @@
 {
-    "id": "cab82bfc-286e-4135-a994-e0a3cb252bc7",
+    "id": "a7b15fdd-f73e-4fca-ae7e-53df85ce57d8",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "PlayCutScene",
+    "name": "oGlowbieStayAtPoint",
     "IsCompatibility": false,
     "IsDnD": false
 }

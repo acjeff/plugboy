@@ -1,8 +1,8 @@
 {
-    "id": "7ae87b5c-b20a-41cd-85bc-1a25a5163d47",
+    "id": "b8444695-7f96-4b6c-85ce-921dac75a0dd",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "SendGlowbie",
+    "name": "CutSceneEndAction",
     "IsCompatibility": false,
     "IsDnD": false
 }

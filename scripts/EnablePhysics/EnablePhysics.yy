@@ -1,8 +1,8 @@
 {
-    "id": "cab82bfc-286e-4135-a994-e0a3cb252bc7",
+    "id": "305f2fb2-b4f8-44bd-9f51-1b23d5c8582b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "PlayCutScene",
+    "name": "EnablePhysics",
     "IsCompatibility": false,
     "IsDnD": false
 }

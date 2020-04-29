@@ -1,1 +1,0 @@
-PlayCutScene(2142, 2179);

@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0756ee3a-c100-4787-83d3-bfbef537a5dd",
+            "Value": {
+                "id": "e855286a-6ab7-4a1e-80cf-7f028683b73e",
+                "resourcePath": "scripts\/CutSceneWait\/CutSceneWait.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0bd65cfa-8307-4593-a0c5-a7ff0471b868",
             "Value": {
                 "id": "7cf64586-c7de-484f-986f-d6275ad34a01",
@@ -63,27 +71,19 @@
             }
         },
         {
-            "Key": "26501657-aeab-42ef-acd0-ff16b10d83ca",
-            "Value": {
-                "id": "16f16544-422a-444a-ab17-cbc276b97375",
-                "resourcePath": "scripts\/PlayCutScene\/PlayCutScene.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "287b5fb2-1477-4754-8240-af6cd738fa69",
-            "Value": {
-                "id": "3e8259e0-41c9-4e0a-a95f-1f64bacfc09a",
-                "resourcePath": "objects\/oCutSceneTrigger\/oCutSceneTrigger.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2e3d566a-cb41-4d88-b109-5aae6989e254",
             "Value": {
                 "id": "69feb162-db18-4018-b270-d532e6b019dd",
                 "resourcePath": "objects\/oCamera\/oCamera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "305f2fb2-b4f8-44bd-9f51-1b23d5c8582b",
+            "Value": {
+                "id": "5b500619-cae9-428c-b029-1234c05c702b",
+                "resourcePath": "scripts\/EnablePhysics\/EnablePhysics.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -116,6 +116,22 @@
                 "id": "0b1c7a52-509f-42ad-b984-1445238fb63f",
                 "resourcePath": "sprites\/sSurfaceWall\/sSurfaceWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4c411425-d59c-4f3f-a1cc-dfa37ceada65",
+            "Value": {
+                "id": "918751c3-67e4-4fdb-8c57-9cc1b4a94dee",
+                "resourcePath": "scripts\/oGlowbieFollowState\/oGlowbieFollowState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "57031302-e626-4fa0-8dd9-f6cca3b022fd",
+            "Value": {
+                "id": "313bd8a1-893e-4f94-9a21-5fe0522bd7dc",
+                "resourcePath": "objects\/oCutScene\/oCutScene.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -183,14 +199,6 @@
             }
         },
         {
-            "Key": "7ae87b5c-b20a-41cd-85bc-1a25a5163d47",
-            "Value": {
-                "id": "4e63cd89-55a1-4ac2-837a-f2ff1a1f4b53",
-                "resourcePath": "scripts\/SendGlowbie\/SendGlowbie.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "897ce55a-78f1-4650-8a6a-3419ec7b8b56",
             "Value": {
                 "id": "2eb068da-376a-4b97-a32d-51f4f4284565",
@@ -204,6 +212,14 @@
                 "id": "14b044d6-bc01-4e78-90f9-b2b65c0e9362",
                 "resourcePath": "views\/98b0c9dc-4e4e-4434-a951-cf8f69780b75.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9a36d326-f04a-4f7e-80f0-aadc48fea86d",
+            "Value": {
+                "id": "329f5dbb-de9d-4803-8356-92fceb3a96c7",
+                "resourcePath": "sprites\/sCutscene\/sCutscene.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -247,6 +263,14 @@
             }
         },
         {
+            "Key": "a7b15fdd-f73e-4fca-ae7e-53df85ce57d8",
+            "Value": {
+                "id": "09bfc43f-66ff-463d-b792-c5be2ee15bc9",
+                "resourcePath": "scripts\/oGlowbieStayAtPoint\/oGlowbieStayAtPoint.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a821be5a-8350-4c24-bafa-151c5fd72758",
             "Value": {
                 "id": "a2f0c741-4dfd-4285-9f72-0d1b90e0d8cb",
@@ -263,6 +287,14 @@
             }
         },
         {
+            "Key": "b8444695-7f96-4b6c-85ce-921dac75a0dd",
+            "Value": {
+                "id": "1aa7d2a8-7de0-4c55-95cd-f2c6698de0cf",
+                "resourcePath": "scripts\/CutSceneEndAction\/CutSceneEndAction.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c606f888-4dd8-4f72-9186-0e2365dc006f",
             "Value": {
                 "id": "210fa0cf-29bf-4b7d-800e-681f324f1b8c",
@@ -276,6 +308,14 @@
                 "id": "51350ccd-e8c4-4cc0-8a43-6e64d79dcb31",
                 "resourcePath": "views\/c7113052-431c-4563-96ae-062e4b72411c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cab82bfc-286e-4135-a994-e0a3cb252bc7",
+            "Value": {
+                "id": "b988c2d1-fd1d-45e6-86c5-49ce7d7a0f4e",
+                "resourcePath": "scripts\/PlayCutScene\/PlayCutScene.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -319,6 +359,22 @@
             }
         },
         {
+            "Key": "ec7db4d4-bb04-45c2-8634-1a1b5ce1976c",
+            "Value": {
+                "id": "eb4f3394-e2bc-41bb-88aa-47be942f9439",
+                "resourcePath": "objects\/oGlowbieWithPhysics\/oGlowbieWithPhysics.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f15a67fc-d8c4-4def-a3ed-4c60383bbc16",
+            "Value": {
+                "id": "d59873a9-ea4c-48bc-a343-d88f6942377f",
+                "resourcePath": "scripts\/AddRealGlowbie\/AddRealGlowbie.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "2ef816ec-e663-462e-a3bf-27ad490d28ac",
@@ -345,10 +401,15 @@
     ],
     "script_order": [
         "fdb5434b-e096-4245-a7b7-96b9a8a0d80e",
-        "26501657-aeab-42ef-acd0-ff16b10d83ca",
-        "7ae87b5c-b20a-41cd-85bc-1a25a5163d47",
         "897ce55a-78f1-4650-8a6a-3419ec7b8b56",
-        "f6471d35-543c-49bd-a688-088279198b69"
+        "f6471d35-543c-49bd-a688-088279198b69",
+        "4c411425-d59c-4f3f-a1cc-dfa37ceada65",
+        "a7b15fdd-f73e-4fca-ae7e-53df85ce57d8",
+        "cab82bfc-286e-4135-a994-e0a3cb252bc7",
+        "305f2fb2-b4f8-44bd-9f51-1b23d5c8582b",
+        "0756ee3a-c100-4787-83d3-bfbef537a5dd",
+        "b8444695-7f96-4b6c-85ce-921dac75a0dd",
+        "f15a67fc-d8c4-4def-a3ed-4c60383bbc16"
     ],
     "tutorial": ""
 }

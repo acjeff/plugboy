@@ -1,8 +1,8 @@
 {
-    "id": "cab82bfc-286e-4135-a994-e0a3cb252bc7",
+    "id": "4c411425-d59c-4f3f-a1cc-dfa37ceada65",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "PlayCutScene",
+    "name": "oGlowbieFollowState",
     "IsCompatibility": false,
     "IsDnD": false
 }
