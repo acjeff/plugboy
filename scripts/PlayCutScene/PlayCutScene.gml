@@ -1,0 +1,2 @@
+global.freezeMovement = true;
+CutSceneEndAction();

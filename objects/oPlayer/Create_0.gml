@@ -1,3 +1,4 @@
+global.freezeMovement = false;
 Jumping = 0;
 PlayerDirection = 0;
 touchingGround = false;
