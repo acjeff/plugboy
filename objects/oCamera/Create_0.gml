@@ -15,5 +15,6 @@ show_debug_message(string(cameraHeight));
 cameraWidthTarget = 1920;
 cameraHeightTarget = 1080;
 follow = oPlayer;
+
 xTo = xstart;
 yTo = ystart;

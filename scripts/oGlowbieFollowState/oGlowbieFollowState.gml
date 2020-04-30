@@ -27,8 +27,6 @@ if (instance_exists(target)) {
 	x += ((targetX + random_range(0, 20)) - x) / (random_range(15, 50));
 	y += ((targetY + random_range(0, 20)) - y) / (random_range(15, 50));
 
-	if (lightSize < 800) lightGrowShrink = random_range(1, 4);
-	if (lightSize > 1000) lightGrowShrink = random_range(-1, -4);
-
-
-	lightSize += lightGrowShrink;
+	//if (lightSize < 800) lightGrowShrink = random_range(1, 4);
+	//if (lightSize > 1000) lightGrowShrink = random_range(-1, -4);
+	//lightSize += lightGrowShrink;
