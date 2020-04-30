@@ -1,6 +1,6 @@
 phy_rotation = false;
 
-touchingGround = place_meeting(x, y + 2, oSurface);
+touchingGround = place_meeting(x, y + 2, oSurface) || place_meeting(x, y + 2, oEnemy);
 
 leftDirX = x-32;
 leftDirY = y-32;

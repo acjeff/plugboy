@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "22aed111-b632-4cb0-a13c-94e8cf8377d5",
+            "Value": {
+                "id": "b0f644e5-99c5-4280-be26-620dc77f3c8b",
+                "resourcePath": "sprites\/sEnergyBallEmpty\/sEnergyBallEmpty.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24358121-2e83-49f0-8ab8-78ae613a07a8",
             "Value": {
                 "id": "e5b74b79-53e4-44b6-b166-17014de55a9c",
@@ -247,11 +255,35 @@
             }
         },
         {
+            "Key": "86ba41a3-afcd-43b3-87d2-5dc02608c8ea",
+            "Value": {
+                "id": "0c8f7d0a-0561-45ef-82c3-ff43cdfdee10",
+                "resourcePath": "objects\/oEnergyBallGUI\/oEnergyBallGUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "897ce55a-78f1-4650-8a6a-3419ec7b8b56",
             "Value": {
                 "id": "2eb068da-376a-4b97-a32d-51f4f4284565",
                 "resourcePath": "scripts\/ShowDialogue\/ShowDialogue.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "91f54697-6b67-4cec-8349-841d956d02ed",
+            "Value": {
+                "id": "eacb277b-0829-4cd3-8282-d9e42f1692c3",
+                "resourcePath": "sprites\/sEnergyBall\/sEnergyBall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "94e4c383-5796-43d9-9184-b20a45e63b7f",
+            "Value": {
+                "id": "4d9595aa-2872-4734-8a5e-92d81a9a1f49",
+                "resourcePath": "sprites\/sHeartEmpty\/sHeartEmpty.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -340,6 +372,14 @@
                 "id": "4da5c3f9-f13c-4ee2-b1c4-3d2ff81bd012",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b1d51985-3539-4e7d-86d9-7fc9d2f14942",
+            "Value": {
+                "id": "77286ae4-7389-4849-a74d-3c2f8ee0f06e",
+                "resourcePath": "objects\/oHeartGUI\/oHeartGUI.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -447,6 +487,14 @@
             }
         },
         {
+            "Key": "f1d5f45f-1555-4fc2-b9e4-4550f527bfaa",
+            "Value": {
+                "id": "5b09f488-8ac6-42e8-a265-119a8dcffc08",
+                "resourcePath": "objects\/oEnemy\/oEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "2ef816ec-e663-462e-a3bf-27ad490d28ac",
@@ -466,7 +514,7 @@
             "Key": "f7b87d2a-30a2-4caf-92af-ee20c2d1aa4d",
             "Value": {
                 "id": "855b07ce-7a01-4d85-8cdb-185e6680be65",
-                "resourcePath": "objects\/InstaDeathObj\/InstaDeathObj.yy",
+                "resourcePath": "objects\/oEnergyStore\/oEnergyStore.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -476,6 +524,14 @@
                 "id": "e443fb56-d80e-42f3-aa05-1692478dc8d8",
                 "resourcePath": "scripts\/GenerateLight\/GenerateLight.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ff48e7c3-7c91-4fb6-a156-6fdd83e316e8",
+            "Value": {
+                "id": "3ce7ee39-68b3-47ef-8a10-d16940437cb5",
+                "resourcePath": "sprites\/sHeart\/sHeart.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

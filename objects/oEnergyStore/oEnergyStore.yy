@@ -2,16 +2,36 @@
     "id": "f7b87d2a-30a2-4caf-92af-ee20c2d1aa4d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "InstaDeathObj",
+    "name": "oEnergyStore",
     "eventList": [
         {
-            "id": "f8993d42-7911-4b28-a551-2ca1f884f23f",
+            "id": "94f861bf-04c8-43fc-a515-f3a48afed1ee",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "14012ca3-45ed-4305-9653-4f47120f2c8e",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
+            "eventtype": 0,
+            "m_owner": "f7b87d2a-30a2-4caf-92af-ee20c2d1aa4d"
+        },
+        {
+            "id": "abeaba4f-5b9a-4499-8da3-34277764c5ae",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "f7b87d2a-30a2-4caf-92af-ee20c2d1aa4d"
+        },
+        {
+            "id": "6975913b-e19a-4570-bb2a-1a10498343d1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
             "m_owner": "f7b87d2a-30a2-4caf-92af-ee20c2d1aa4d"
         }
     ],
@@ -27,7 +47,7 @@
     "physicsLinearDamping": 0.1,
     "physicsObject": true,
     "physicsRestitution": 0.1,
-    "physicsSensor": true,
+    "physicsSensor": false,
     "physicsShape": 1,
     "physicsShapePoints": [
         {
