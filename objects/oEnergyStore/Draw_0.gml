@@ -12,7 +12,7 @@ else {
 				draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Press E to interact")
 			}
 			else if (interactable && (global.energy < value)) {
-				draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Need " + string(value - global.energy) + " more " + comparativeLabel)
+				draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Need " + string(value - global.energy) + " more " + comparativeLabel + " to continue");
 			}
 			if (enemy) {
 				draw_text(oGlowbie.x - 30, oGlowbie.y - 140, "Hold F to attack")
@@ -50,8 +50,10 @@ else {
 	}
 }
 
-draw_set_color(c_red);
-draw_text(x, y-35,  string(life));
-draw_set_color(c_green);
-draw_text(x, y-50,  string(energy));
-draw_set_color(c_white);
+if (energy != "infinite") {
+	draw_set_color(c_red);
+	draw_text(x - 30, y-80,  string(life));
+	draw_set_color(c_green);
+	draw_text(x - 30, y-60,  string(energy));
+	draw_set_color(c_white);
+}
