@@ -4,7 +4,7 @@ if (dead) {
 }
 else {
 	if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
-		if (point_distance(x, y, oPlayer.x, oPlayer.y) < 200) {
+		if (withinRange) {
 			
 			if (discharge && energy) {
 				lineAlpha = 0.8;

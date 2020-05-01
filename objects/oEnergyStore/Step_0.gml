@@ -1,8 +1,11 @@
+toPoint = global.energy <  34 ? 200 : global.energy * 6
+withinRange = point_distance(x, y, oPlayer.x, oPlayer.y) < toPoint;
+if (life < 0) life = 0;
 if (energy != "infinite" && energy < 0) energy = 0;
 if (!dead) {
 	if (discharge) {
 		if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
-			if (point_distance(x, y, oPlayer.x, oPlayer.y) < 200) {
+			if (withinRange) {
 				if (global.energy < global.totalEnergyCapacity) {
 					show_debug_message("Send energy");
 					if (energy == "infinite") {
@@ -22,7 +25,7 @@ if (!dead) {
 	if (beingAttacked) {	
 		if (global.energy > 0 && life > 0) {
 			if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
-					if (point_distance(x, y, oPlayer.x, oPlayer.y) < 200) {
+					if (withinRange) {
 						global.energy -= 1;
 						life -= 1;
 					}
