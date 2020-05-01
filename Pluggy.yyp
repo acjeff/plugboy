@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "a9f76031-b230-44f5-b614-6494984555f6",
+            "Value": {
+                "id": "0a870887-5843-4bdf-b908-e3042e972a10",
+                "resourcePath": "scripts\/ConditionPassed\/ConditionPassed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b1d51985-3539-4e7d-86d9-7fc9d2f14942",
             "Value": {
                 "id": "77286ae4-7389-4849-a74d-3c2f8ee0f06e",
@@ -455,6 +463,14 @@
             }
         },
         {
+            "Key": "da6a47b5-7716-4752-b4d9-5971b45bd56a",
+            "Value": {
+                "id": "8bd59222-301d-45d1-8069-55f85df444eb",
+                "resourcePath": "scripts\/MoveObject\/MoveObject.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e42f8811-3331-4dbf-8fdc-e89dee43bc33",
             "Value": {
                 "id": "2c0ecd56-347a-44bb-b800-4c222133b2af",
@@ -527,6 +543,14 @@
             }
         },
         {
+            "Key": "fe7878e3-90c8-4eef-b395-384862e5faad",
+            "Value": {
+                "id": "e5d39c85-73c0-442c-8ab9-7aa7dcf762de",
+                "resourcePath": "objects\/InteractiveElement\/InteractiveElement.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ff48e7c3-7c91-4fb6-a156-6fdd83e316e8",
             "Value": {
                 "id": "3ce7ee39-68b3-47ef-8a10-d16940437cb5",
@@ -547,7 +571,9 @@
         "b8444695-7f96-4b6c-85ce-921dac75a0dd",
         "f15a67fc-d8c4-4def-a3ed-4c60383bbc16",
         "e6f3e8a5-a4eb-42cf-86a1-d76e42b88191",
-        "1408debe-d718-479f-ac13-980babbc5853"
+        "1408debe-d718-479f-ac13-980babbc5853",
+        "da6a47b5-7716-4752-b4d9-5971b45bd56a",
+        "a9f76031-b230-44f5-b614-6494984555f6"
     ],
     "tutorial": ""
 }

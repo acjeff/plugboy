@@ -1,4 +1,8 @@
 scene_info = [
+	[PlayCutScene],
+	[CutSceneWait, 1],
 	[EnablePhysics],
-	[AddRealGlowbie]
+	[CutSceneWait, 2],
+	[AddRealGlowbie],
+	[EndCutScene]
 ]

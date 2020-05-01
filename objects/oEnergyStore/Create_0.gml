@@ -1,3 +1,8 @@
+interactable = false;
+interacting = false;
+scene_info = false;
+scene = 0;
+timer = 0;
 throwEnergyBall = false;
 throwEnergyBallTimer = room_speed / 2;
 dead = false;
@@ -12,3 +17,4 @@ enemy = false;
 life = 100;
 lightColor = c_green;
 withinRange = false;
+lightSize = 500;

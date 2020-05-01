@@ -1,12 +1,23 @@
-
+draw_self();
 if (dead) {
 	image_alpha = 0.2;
 }
 else {
 	if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 		if (withinRange) {
-			
-			if (discharge && energy) {
+			if (energy == "infinite" && !interactable && global.energy < 100) {
+				draw_text(oGlowbie.x - 30, oGlowbie.y - 100, "Hold C to charge")
+			}
+			if (interactable && (global.energy >= value)) {
+				draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Press E to interact")
+			}
+			else if (interactable && (global.energy < value)) {
+				draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Need " + string(value - global.energy) + " more " + comparativeLabel)
+			}
+			if (enemy) {
+				draw_text(oGlowbie.x - 30, oGlowbie.y - 140, "Hold F to attack")
+			}
+			if (discharge && energy && global.energy < 100) {
 				lineAlpha = 0.8;
 				lineThickness = 4;
 				lineColor1 = c_green;
@@ -38,7 +49,6 @@ else {
 		}
 	}
 }
-draw_self();
 
 draw_set_color(c_red);
 draw_text(x, y-35,  string(life));

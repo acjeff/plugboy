@@ -1,7 +1,6 @@
-
-	toPoint = global.energy <  34 ? 200 : global.energy * 6
-	if (life < 0) life = 0;
-	if (energy != "infinite" && energy < 0) energy = 0;
+toPoint = global.energy <  34 ? 200 : global.energy * 6
+if (life < 0) life = 0;
+if (energy != "infinite" && energy < 0) energy = 0;
 if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 	withinRange = point_distance(x, y, oPlayer.x, oPlayer.y) < toPoint;
 	if (!dead) {
@@ -19,8 +18,7 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 							}
 						}
 					}
-				}
-		
+				}		
 		}
 
 		if (beingAttacked) {	
@@ -52,28 +50,26 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 
 	}
 }
-		if (enemy) {
-			lightColor = c_red;
-		}
-		else {
-			lightColor = c_aqua;
-		}
-		if (energy == "infinite") {
-			lightSize = 500;	
-		}
-		else {
-			lightSize = (energy * 8) - 1;
-		}
-	
-	
+if (enemy) {
+	lightColor = c_red;
+}
+else {
+	lightColor = c_aqua;
+}
+if (energy == "infinite") {
+	lightSize = 500;	
+}
+else {
+	lightSize = (((energy + life) /2) * 5);
+}
 
 
-	if (life <= 0) {
-		lightSize = 0;
+if (life <= 0) {
+	lightSize = 0;
+	dead = true;
+}
+if (energy != "infinite") {
+	if (energy <= 0) {
 		dead = true;
 	}
-	if (energy != "infinite") {
-		if (energy <= 0) {
-			dead = true;
-		}
-	}
+}
