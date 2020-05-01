@@ -1,3 +1,4 @@
+dead = false;
 energy = "infinite";
 discharge = false;
 lineAlpha = 0.3;
@@ -5,4 +6,6 @@ lineThickness = 2;
 lineColor1 = c_white;
 lineColor2 = c_blue;
 beingAttacked = false;
+enemy = false;
 life = 100;
+lightColor = c_green;
