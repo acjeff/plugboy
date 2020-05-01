@@ -1,3 +1,5 @@
+throwEnergyBall = false;
+throwEnergyBallTimer = room_speed / 2;
 dead = false;
 energy = "infinite";
 discharge = false;

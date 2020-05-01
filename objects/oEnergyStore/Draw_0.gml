@@ -24,6 +24,12 @@ else {
 				lineColor1 = c_white;
 				lineColor2 = c_blue;
 			}
+			if (throwEnergyBall && global.energy) {
+				lineAlpha = 0.8;
+				lineThickness = 20;
+				lineColor1 = c_red;
+				lineColor2 = c_orange;
+			}
 		
 			draw_set_alpha(lineAlpha);
 			draw_line_width_color(x, y, oGlowbie.x, oGlowbie.y, lineThickness, lineColor1, lineColor2);

@@ -1,3 +1,3 @@
 enemy = true;
-life = 50;
+life = 500;
 energy = 100;

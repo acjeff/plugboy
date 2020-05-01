@@ -1,3 +1,4 @@
+if (global.energy < 0) global.energy = 0;
 if (global.life == 0) {
 	showDead = true;
 	with (oPlayer) {

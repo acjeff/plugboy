@@ -1,1 +1,2 @@
 beingAttacked = true;
+discharge = false;
