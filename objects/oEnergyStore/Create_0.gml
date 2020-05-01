@@ -11,3 +11,4 @@ beingAttacked = false;
 enemy = false;
 life = 100;
 lightColor = c_green;
+withinRange = false;
