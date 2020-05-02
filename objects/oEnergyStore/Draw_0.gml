@@ -73,9 +73,8 @@ else {
 }
 
 if (energy != "infinite") {
-	draw_set_color(c_red);
-	draw_text(x - 30, y-80,  string(life));
-	draw_set_color(c_green);
-	draw_text(x - 30, y-60,  string(energy));
+	draw_set_color(c_white);
+	draw_text(x - 30, y-80, "Life: " + string(life));
+	draw_text(x - 30, y-60, "Energy: " + string(energy));
 	draw_set_color(c_white);
 }
