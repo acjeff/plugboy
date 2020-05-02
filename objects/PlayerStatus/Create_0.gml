@@ -8,3 +8,4 @@ global.life = 3;
 global.totalLifeCapacity = 3;
 depth = -9999;
 room_goto(Room1);
+//room_goto(Room2);

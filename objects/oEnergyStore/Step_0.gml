@@ -33,9 +33,9 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 		if (throwEnergyBallTimer > 0 && throwEnergyBall) {
 			throwEnergyBallTimer--;
 			if (global.energy > 0 && life > 0) {
-				if (global.energy >= 5) {
-					global.energy -= 5;
-					life -= 5;
+				if (global.energy >= 50) {
+					global.energy -= 50;
+					life -= 300;
 				}
 				else {
 					global.energy = 0;
