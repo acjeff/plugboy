@@ -1,6 +1,6 @@
 size = argument2;
-view_x = camera_get_view_x(view_camera[0]);
-view_y = camera_get_view_y(view_camera[0]);
+view_x = camera_get_view_x(view_camera[0]) - 300;
+view_y = camera_get_view_y(view_camera[0]) - 300;
 attatchToX = argument0;
 attatchToY = argument1;
 gpu_set_blendmode(bm_subtract);
