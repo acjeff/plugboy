@@ -5,17 +5,25 @@ if (dead) {
 else {
 	if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 		if (withinRange) {
-			if (energy == "infinite" && !interactable && global.energy < 100) {
+			if (!interactable && global.energy < 100) {
 				draw_text(oGlowbie.x - 30, oGlowbie.y - 100, "Hold C to charge")
 			}
 			if (interactable && (global.energy >= value)) {
-				draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Press E to interact")
+				if (!clearEnemies) {
+					draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Press E to interact")
+				}
+				else if (clearEnemies && instance_number(oEnemy) == 0) {
+					draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Press E to interact")
+				}
 			}
-			else if (interactable && (global.energy < value)) {
-				draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Need " + string(value - global.energy) + " more " + comparativeLabel + " to continue");
+			if (clearEnemies && instance_number(oEnemy) > 0) {
+				draw_text(oGlowbie.x - 30, oGlowbie.y - 140, "Need to clear " + string(instance_number(oEnemy)) + " enemies");	
+			}
+			if (interactable && (global.energy < value)) {
+				draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Need " + string(value - global.energy) + " more " + comparativeLabel);
 			}
 			if (enemy) {
-				draw_text(oGlowbie.x - 30, oGlowbie.y - 140, "Hold F to attack")
+				draw_text(oGlowbie.x - 30, oGlowbie.y - 160, "Hold F to attack")
 			}
 			if (discharge && energy && global.energy < 100) {
 				lineAlpha = 0.8;

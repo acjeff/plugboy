@@ -1,3 +1,4 @@
+clearEnemies = false;
 interactable = false;
 interacting = false;
 scene_info = false;

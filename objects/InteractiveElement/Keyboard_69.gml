@@ -1,5 +1,12 @@
-if (global.energy == value) {
+if (global.energy >= value) {
 	if (withinRange) {
-		interacting = true;
+		if (clearEnemies) {
+			if (instance_number(oEnemy) == 0) {
+				interacting = true;
+			}
+		}
+		else {
+			interacting = true;
+		}
 	}
 }
