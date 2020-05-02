@@ -322,7 +322,7 @@
             "Key": "a1d895cb-9e05-4c1a-8286-008dc7a3baf3",
             "Value": {
                 "id": "78287007-f85b-4e70-9d24-d2e48415ccb2",
-                "resourcePath": "rooms\/testRoom\/testRoom.yy",
+                "resourcePath": "rooms\/Room1\/Room1.yy",
                 "resourceType": "GMRoom"
             }
         },
