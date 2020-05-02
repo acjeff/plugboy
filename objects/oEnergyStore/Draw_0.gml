@@ -1,3 +1,4 @@
+depth = -10;
 draw_self();
 if (dead) {
 	image_alpha = 0.2;
@@ -10,6 +11,7 @@ else {
 			}
 			if (interactable && (global.energy >= value)) {
 				if (!clearEnemies) {
+					
 					draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Press E to interact")
 				}
 				else if (clearEnemies && instance_number(oEnemy) == 0) {
