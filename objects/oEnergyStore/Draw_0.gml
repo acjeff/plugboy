@@ -72,6 +72,9 @@ else {
 	}
 }
 
+//draw_text(x - 30, y-100, "Scene: " + string(scene));
+//draw_text(x - 30, y-120, "Scene info length: " + string(array_length_1d(scene_info)));
+
 if (energy != "infinite") {
 	draw_set_color(c_white);
 	draw_text(x - 30, y-80, "Life: " + string(life));
