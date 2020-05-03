@@ -48,6 +48,102 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 			throwEnergyBallTimer = room_speed / 2;
 		}
 
+		if (withinRange) {
+			var xVal = x;
+			var yVal = y;
+			var esEnergy = energy;
+			var esDischarge = discharge;
+			var esBeingAttatcked = beingAttacked;
+			var esThrowEnergyBall = throwEnergyBall;
+			var distance = point_distance(x, y, oGlowbie.x, oGlowbie.y);
+					
+			//ROPE LOGIC
+			if (!rope) {
+				rope = instance_create_layer(oGlowbie.x, oGlowbie.y, "Glowbie", oRope1);
+				with (rope) {
+					depth = -9999;
+					for ( var i = 0; i <= knotNum; i++ )
+						{
+						    // position of knot
+							ropeLen = distance;
+						    knotX[i] = xVal;
+						    knotY[i] = yVal+(knotDist*i*0.25);
+						    // previous position
+						    knotXprev[i] = knotX[i];
+						    knotYprev[i] = knotY[i];
+						}
+				}
+			}
+			if (rope) {
+				with (rope) {
+					ropeLen = distance;
+					x = oGlowbie.x;
+					y = oGlowbie.y;
+					knotX[knotNum] = xVal;
+					knotY[knotNum] = yVal;	
+					alpha = 0.5;
+					
+					
+					//constraintsIterations = 3; 
+					//ropeLen = distance;
+					//knotNum = distance / 2;
+					//lineSpriteWidth = 28;
+					//knotDist = ropeLen / knotNum;
+					//var roundGlobX = oGlowbie.x;
+					//var roundGlobY = oGlowbie.y;
+					//knotX[knotNum + 1] = roundGlobX;
+				    //knotY[knotNum + 1] = roundGlobY;
+			        //knotXprev[knotNum + 1] = roundGlobX;
+			        //knotYprev[knotNum + 1] = roundGlobY;
+					
+				
+									
+					//Change rope values based on events
+					
+					if (esDischarge && esEnergy && global.energy < global.totalEnergyCapacity) {
+						//lineAlpha = 0.8;
+						//lineThickness = 4;
+						//lineColor1 = c_green;
+						//lineColor2 = c_blue;
+					}
+					else if (esBeingAttatcked  && global.energy) {
+						//lineAlpha = 0.8;
+						//lineThickness = 4;
+						//lineColor1 = c_red;
+						//lineColor2 = c_orange;
+					}
+					else {
+						//lineAlpha = 0.3;
+						//lineThickness = 3;
+						//lineColor1 = c_white;
+						//lineColor2 = c_blue;
+					}
+					if (esThrowEnergyBall && global.energy) {
+						//lineAlpha = 0.8;
+						//lineThickness = 20;
+						//lineColor1 = c_red;
+						//lineColor2 = c_orange;
+					}
+					
+					
+				}
+			}
+
+		}
+		else {
+			if (rope) {
+				instance_destroy(rope)
+				rope = false;
+			};
+		}
+		//ROPE LOGIC
+
+	}
+	else {
+		if (rope) {
+				instance_destroy(rope)
+				rope = false;
+		};
 	}
 }
 if (enemy) {

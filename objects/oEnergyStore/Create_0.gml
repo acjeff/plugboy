@@ -22,6 +22,7 @@ lightSize = 500;
 dontDestroy = true;
 showDeath = true;
 explosionStarted = false;
+rope = false;
 
 deathScene = [
 	[Explode]

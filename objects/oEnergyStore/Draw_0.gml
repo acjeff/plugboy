@@ -40,35 +40,19 @@ else {
 					draw_text(oGlowbie.x - 30, oGlowbie.y - 160, "Hold F to attack")
 				}
 			}
-			if (discharge && energy && global.energy < global.totalEnergyCapacity) {
-				lineAlpha = 0.8;
-				lineThickness = 4;
-				lineColor1 = c_green;
-				lineColor2 = c_blue;
-			}
-			else if (beingAttacked  && global.energy) {
-				lineAlpha = 0.8;
-				lineThickness = 4;
-				lineColor1 = c_red;
-				lineColor2 = c_orange;
-			}
-			else {
-				lineAlpha = 0.3;
-				lineThickness = 3;
-				lineColor1 = c_white;
-				lineColor2 = c_blue;
-			}
-			if (throwEnergyBall && global.energy) {
-				lineAlpha = 0.8;
-				lineThickness = 20;
-				lineColor1 = c_red;
-				lineColor2 = c_orange;
-			}
+			
 		
 			draw_set_alpha(lineAlpha);
-			draw_line_width_color(x, y, oGlowbie.x, oGlowbie.y, lineThickness, lineColor1, lineColor2);
+			//draw_line_width_color(x, y, oGlowbie.x, oGlowbie.y, lineThickness, lineColor1, lineColor2);
 		
 			draw_set_alpha(1);
+			
+			//DRAW ROPE
+			
+			
+			
+			//DRAW ROPE
+			
 		}
 	}
 }
