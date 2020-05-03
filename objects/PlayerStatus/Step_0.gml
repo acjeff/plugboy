@@ -1,5 +1,5 @@
 if (global.energy < 0) global.energy = 0;
-if (global.energy > 100) global.energy = 100;
+if (global.energy > global.totalEnergyCapacity) global.energy = global.totalEnergyCapacity;
 if (global.life == 0) {
 	showDead = true;
 	with (oPlayer) {

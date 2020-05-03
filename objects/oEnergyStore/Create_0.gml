@@ -19,4 +19,10 @@ life = 100;
 lightColor = c_green;
 withinRange = false;
 lightSize = 500;
-dontDestroy = false;
+dontDestroy = true;
+showDeath = true;
+explosionStarted = false;
+
+deathScene = [
+	[Explode]
+]

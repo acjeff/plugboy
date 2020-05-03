@@ -1,12 +1,13 @@
 depth = -10;
 draw_self();
 if (dead) {
+	if (showDeath) RunScenes(dead, deathScene, scene);
 	image_alpha = 0.2;
 }
 else {
 	if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 		if (withinRange) {
-			if (!interactable && global.energy < 100) {
+			if (!interactable && global.energy < global.totalEnergyCapacity) {
 				with (oGlowbie) {
 					draw_text(oGlowbie.x - 30, oGlowbie.y - 100, "Hold C to charge")
 				}
@@ -39,7 +40,7 @@ else {
 					draw_text(oGlowbie.x - 30, oGlowbie.y - 160, "Hold F to attack")
 				}
 			}
-			if (discharge && energy && global.energy < 100) {
+			if (discharge && energy && global.energy < global.totalEnergyCapacity) {
 				lineAlpha = 0.8;
 				lineThickness = 4;
 				lineColor1 = c_green;

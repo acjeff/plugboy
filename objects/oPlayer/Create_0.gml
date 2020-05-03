@@ -1,3 +1,5 @@
+maxJumpHeight = 120;
+maxMoveSpeed = 30;
 global.freezeMovement = false;
 color = c_white;
 lightSize = 200;

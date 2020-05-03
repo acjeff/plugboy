@@ -67,7 +67,6 @@ else {
 if (life <= 0) {
 	lightSize = 0;
 	dead = true;
-	instance_destroy();
 }
 if (energy != "infinite") {
 	if (energy <= 0) {
