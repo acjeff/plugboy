@@ -255,10 +255,10 @@
             }
         },
         {
-            "Key": "66b6be47-80ae-419b-b277-cdd0b60832f2",
+            "Key": "68fafafe-30b8-4f44-8785-57453ae0f772",
             "Value": {
-                "id": "9a3198b5-746c-499a-906f-f654dbe5b38c",
-                "resourcePath": "sprites\/sKnot\/sKnot.yy",
+                "id": "d2c863d7-5863-4d77-a1b0-76c78105ba7c",
+                "resourcePath": "sprites\/GlowbieBlue\/GlowbieBlue.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "a96f19f2-58de-4298-a372-0b266f77254a",
+            "Value": {
+                "id": "a286b62a-8790-4826-9328-3f268b7f2882",
+                "resourcePath": "sprites\/GlowbiePurple\/GlowbiePurple.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9f76031-b230-44f5-b614-6494984555f6",
             "Value": {
                 "id": "0a870887-5843-4bdf-b908-e3042e972a10",
@@ -540,6 +548,14 @@
                 "id": "d527a947-a301-4368-a536-d41a08e35e30",
                 "resourcePath": "views\/cef4c881-ad72-4540-81aa-ccab17bf6e39.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d01160bd-78f5-4ad2-8220-f2d71faef1a9",
+            "Value": {
+                "id": "8a5de2d4-8f39-4e9a-bcda-622dbf7879f7",
+                "resourcePath": "sprites\/GlowbieGreen\/GlowbieGreen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -7,7 +7,9 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 		if (discharge) {
 				if (withinRange) {
 					if (global.energy < global.totalEnergyCapacity) {
+						
 						show_debug_message("Send energy");
+						
 						if (energy == "infinite") {
 							global.energy++;
 						}
@@ -21,7 +23,7 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 				}		
 		}
 
-		if (beingAttacked) {	
+		 if (beingAttacked) {	
 			if (global.energy > 0 && life > 0) {				
 				if (withinRange) {
 					global.energy -= 1;
@@ -30,7 +32,7 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 			}
 		}
 	
-		if (throwEnergyBallTimer > 0 && throwEnergyBall) {
+		 if (throwEnergyBallTimer > 0 && throwEnergyBall) {
 			throwEnergyBallTimer--;
 			if (global.energy > 0 && life > 0) {
 				if (global.energy >= 50) {
@@ -43,6 +45,7 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 				}
 			}
 		}
+	
 		if (throwEnergyBallTimer <= 0) {
 			throwEnergyBall = false;
 			throwEnergyBallTimer = room_speed / 2;
@@ -76,6 +79,7 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 			}
 			if (rope) {
 				with (rope) {
+			
 					lineType = sLine;
 					ropeLen = distance;
 					x = oGlowbie.x;
@@ -86,13 +90,28 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 					
 					
 					if (esDischarge && esEnergy && global.energy < global.totalEnergyCapacity) {
+						
+						with (oGlowbie) {
+							imageIndex = GlowbieGreen;
+						}
+			
 						lineType = sLineCharging;
 					}
 					else if (esBeingAttatcked  && global.energy) {
+						
+						with (oGlowbie) {
+							imageIndex = GlowbiePurple;
+						}
+			
 						lineType = sLineAttack;
 					}
 				
-					if (esThrowEnergyBall && global.energy) {
+					else if (esThrowEnergyBall && global.energy) {
+						
+						with (oGlowbie) {
+							imageIndex = GlowbiePurple;
+						}
+			
 						lineType = sLineAttackBolt;
 					}
 					
@@ -102,6 +121,7 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 
 		}
 		else {
+			
 			if (rope) {
 				instance_destroy(rope)
 				rope = false;
