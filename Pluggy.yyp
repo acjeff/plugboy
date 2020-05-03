@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "657ab922-33f2-4dd0-ade2-e61bce83d260",
+            "Value": {
+                "id": "74c30693-aef4-47ce-bf65-42556f14697d",
+                "resourcePath": "sprites\/sLineAttack\/sLineAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66b6be47-80ae-419b-b277-cdd0b60832f2",
             "Value": {
                 "id": "9a3198b5-746c-499a-906f-f654dbe5b38c",
@@ -463,6 +471,14 @@
             }
         },
         {
+            "Key": "abf9a99e-3055-489e-9bc2-b1db94c512a9",
+            "Value": {
+                "id": "b8303587-8a7f-48cf-b71b-b1652151efbc",
+                "resourcePath": "sprites\/sLineCharging\/sLineCharging.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1d51985-3539-4e7d-86d9-7fc9d2f14942",
             "Value": {
                 "id": "77286ae4-7389-4849-a74d-3c2f8ee0f06e",
@@ -556,6 +572,14 @@
                 "id": "2c0ecd56-347a-44bb-b800-4c222133b2af",
                 "resourcePath": "views\/e42f8811-3331-4dbf-8fdc-e89dee43bc33.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e5c482f2-189d-4c4f-95c2-fa90aca770cd",
+            "Value": {
+                "id": "62f255c4-abdd-4b50-bac5-2c947ebc7270",
+                "resourcePath": "sprites\/sLineAttackBolt\/sLineAttackBolt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

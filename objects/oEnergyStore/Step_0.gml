@@ -76,6 +76,7 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 			}
 			if (rope) {
 				with (rope) {
+					lineType = sLine;
 					ropeLen = distance;
 					x = oGlowbie.x;
 					y = oGlowbie.y;
@@ -84,45 +85,15 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 					alpha = 0.5;
 					
 					
-					//constraintsIterations = 3; 
-					//ropeLen = distance;
-					//knotNum = distance / 2;
-					//lineSpriteWidth = 28;
-					//knotDist = ropeLen / knotNum;
-					//var roundGlobX = oGlowbie.x;
-					//var roundGlobY = oGlowbie.y;
-					//knotX[knotNum + 1] = roundGlobX;
-				    //knotY[knotNum + 1] = roundGlobY;
-			        //knotXprev[knotNum + 1] = roundGlobX;
-			        //knotYprev[knotNum + 1] = roundGlobY;
-					
-				
-									
-					//Change rope values based on events
-					
 					if (esDischarge && esEnergy && global.energy < global.totalEnergyCapacity) {
-						//lineAlpha = 0.8;
-						//lineThickness = 4;
-						//lineColor1 = c_green;
-						//lineColor2 = c_blue;
+						lineType = sLineCharging;
 					}
 					else if (esBeingAttatcked  && global.energy) {
-						//lineAlpha = 0.8;
-						//lineThickness = 4;
-						//lineColor1 = c_red;
-						//lineColor2 = c_orange;
+						lineType = sLineAttack;
 					}
-					else {
-						//lineAlpha = 0.3;
-						//lineThickness = 3;
-						//lineColor1 = c_white;
-						//lineColor2 = c_blue;
-					}
+				
 					if (esThrowEnergyBall && global.energy) {
-						//lineAlpha = 0.8;
-						//lineThickness = 20;
-						//lineColor1 = c_red;
-						//lineColor2 = c_orange;
+						lineType = sLineAttackBolt;
 					}
 					
 					

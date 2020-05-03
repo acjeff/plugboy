@@ -4,7 +4,7 @@ global.lastCheckPointX = 0;
 global.lastCheckPointY = 0;
 
 global.energy = 0;
-global.totalEnergyCapacity = 1000;
+global.totalEnergyCapacity = 100;
 
 global.life = 3;
 global.totalLifeCapacity = 3;

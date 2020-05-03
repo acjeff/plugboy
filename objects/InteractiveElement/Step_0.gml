@@ -5,7 +5,52 @@ if (life < 0) life = 0;
 if (energy != "infinite" && energy < 0) energy = 0;
 if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 	withinRange = point_distance(x, y, oPlayer.x, oPlayer.y) < toPoint;
+	
+	if (withinRange) {
+			var xVal = x;
+			var yVal = y;
+			var distance = point_distance(x, y, oGlowbie.x, oGlowbie.y);
+					
+			//ROPE LOGIC
+			if (!rope) {
+				rope = instance_create_layer(oGlowbie.x, oGlowbie.y, "Glowbie", oRope1);
+				with (rope) {
+					depth = -9999;
+					for ( var i = 0; i <= knotNum; i++ )
+						{
+						    // position of knot
+							ropeLen = distance;
+						    knotX[i] = xVal;
+						    knotY[i] = yVal+(knotDist*i*0.25);
+						    // previous position
+						    knotXprev[i] = knotX[i];
+						    knotYprev[i] = knotY[i];
+						}
+				}
+			}
+			if (rope) {
+				with (rope) {
+					ropeLen = distance;
+					x = oGlowbie.x;
+					y = oGlowbie.y;
+					knotX[knotNum] = xVal;
+					knotY[knotNum] = yVal;	
+					alpha = 0.5;
+				}
+			}
+			
 }
+
+else {
+			if (rope) {
+				instance_destroy(rope)
+				rope = false;
+			};
+		}
+
+
+}
+
 if (interacting) {
 	var current_scene = scene_info[scene];
 
