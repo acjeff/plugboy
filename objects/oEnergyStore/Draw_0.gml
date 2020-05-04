@@ -1,7 +1,7 @@
 depth = -10;
 draw_self();
 if (dead) {
-	if (showDeath) RunScenes(dead, deathScene, scene);
+	if (showDeath) RunNPCDeathScenes();
 	image_alpha = 0.2;
 }
 else {

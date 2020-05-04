@@ -1,8 +1,8 @@
 {
-    "id": "a500d396-07b0-4f9d-92d9-6f8d041a90db",
+    "id": "a11ff21c-5477-40ab-b321-70e693c5c08e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "RunScenes",
+    "name": "Smoke",
     "IsCompatibility": false,
     "IsDnD": false
 }

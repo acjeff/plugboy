@@ -1,3 +1,4 @@
+explosionFluid = false;
 clearEnemies = false;
 interactable = false;
 interacting = false;
@@ -10,9 +11,6 @@ dead = false;
 energy = "infinite";
 discharge = false;
 lineAlpha = 0.3;
-lineThickness = 2;
-lineColor1 = c_white;
-lineColor2 = c_blue;
 beingAttacked = false;
 enemy = false;
 life = 100;
@@ -22,8 +20,11 @@ lightSize = 500;
 dontDestroy = false;
 showDeath = true;
 explosionStarted = false;
+explosionFluid = false;
 rope = false;
-
+smoke = false;
+spriteHeight = sprite_height;
 deathScene = [
-	[Explode]
+	[Explode, 5],
+	[Smoke]
 ]
