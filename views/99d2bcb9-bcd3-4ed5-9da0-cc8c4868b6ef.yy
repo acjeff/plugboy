@@ -1,0 +1,31 @@
+{
+    "id": "99d2bcb9-bcd3-4ed5-9da0-cc8c4868b6ef",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "99d2bcb9-bcd3-4ed5-9da0-cc8c4868b6ef",
+    "children": [
+        "c93f3636-a1c5-4536-be9b-408f49992e2b",
+        "35c9578e-07dd-4e87-81e5-8287db1d7b4e",
+        "3a671a2c-0dd9-4b3c-add9-567ffd7dcffa",
+        "f3301211-6408-4c65-855f-e630514672a4",
+        "69568322-e299-49d0-ba9a-220325960223",
+        "f9096546-80a0-45ff-835d-cc5ac9041cd4",
+        "fc55f0f4-03c0-4084-8825-62dae8ff48df",
+        "ac4e8b8a-b527-4ffe-97bb-5f6f4f3626be",
+        "07f748ea-85d5-48ae-9a68-147a33b25513",
+        "afbee3fb-70d4-409e-830c-ff33ef751904",
+        "6cfbaa15-bb0a-47f0-80b5-721f8c4c0885",
+        "79b154b2-eaa8-4b28-8c9d-c1b1aaab188b",
+        "011e431a-25b4-4eae-b768-bde25725c65a",
+        "49fafdf7-7d3c-4dc4-9ca0-fdc345dc0f84",
+        "13d58bc8-fe6b-4b77-b8f5-7261686116f9",
+        "e09c9c01-3ec5-48e1-b0da-a8371d436b86",
+        "d2d75783-e641-4951-a0fe-194a95036b84",
+        "efa00788-08c4-486d-a0eb-1063a4f333b7",
+        "15efc555-97aa-4f00-9878-94cb6bbab631"
+    ],
+    "filterType": "GMShader",
+    "folderName": "Internal",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

@@ -1,0 +1,31 @@
+{
+    "id": "f95af633-627b-4cc2-8f79-df30813ce4a8",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "f95af633-627b-4cc2-8f79-df30813ce4a8",
+    "children": [
+        "acb8daa5-a634-4e53-ba24-1a83f8b60ee1",
+        "5697643e-c3e3-4a22-b5d1-fcd124e70fb7",
+        "aa7bf06d-8f48-4a0b-a78a-c2d82f98e668",
+        "72e49969-a022-4392-9e54-674e1a9333b2",
+        "fffa9605-4183-488e-81a7-57926fd6dbbb",
+        "fe596119-b8cf-4660-9130-773ce873ab86",
+        "15231752-76ec-42dd-8f38-29060e31c366",
+        "5d4a1657-6d50-4ea5-b2c6-d1c07151502b",
+        "7f472718-7e36-4f55-a407-7d787b1c49ac",
+        "686ecc7d-d0f0-4f83-8af1-98150b16ca12",
+        "e99f5bf1-e2ac-4dd7-9f3c-52354dfd9458",
+        "fa2c8ae6-f11b-47f3-b65f-3c9d7c100617",
+        "e7722818-77d1-4b7a-b4f4-f71daa4098e5",
+        "dbe9ab96-10e2-47a5-8b94-b40be70bfa0c",
+        "fced88a1-6bae-497d-afed-35ce829cd183",
+        "548aa790-15f3-42c2-8604-22c5db444327",
+        "7d96ed7a-ab9e-49a0-b1bc-377cdef2001e",
+        "8fd73aa1-6625-43cd-b680-2dd5dd0326da",
+        "a9956f6b-7a6f-4b7a-b770-c6a0b2732163"
+    ],
+    "filterType": "GMScript",
+    "folderName": "Set scripts",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
