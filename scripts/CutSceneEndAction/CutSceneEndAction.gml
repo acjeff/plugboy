@@ -1,17 +1,12 @@
-if (scene <= array_length_1d(scene_info) - 1) scene++;
+if (scene <= array_length_1d(scene_info) - 1) {
+	show_debug_message("Scene++");
+	scene++;
+}
 
 if (scene > array_length_1d(scene_info) - 1 && !dontDestroy) {
 	instance_destroy();
-	if (explosionFluid) {
-		with(explosionFluid) {
-			showFire = false;
-		}
-	}
-	if (smoke) {
-		with(smoke) {
-			showFire = false;
-		}
-	}
+	if (explosionFluid) instance_destroy(explosionFluid);
+	if (smoke) instance_destroy(smoke);
 }
 
 if (scene > array_length_1d(scene_info) - 1 && dontDestroy) {

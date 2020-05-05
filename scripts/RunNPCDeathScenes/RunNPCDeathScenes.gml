@@ -3,7 +3,7 @@
 // @arg sceneNumber
 
 if (dead) {
-	var current_scene = deathScene[scene];
+	var current_scene = scene_info[scene];
 
 	var len = array_length_1d(current_scene) - 1;
 

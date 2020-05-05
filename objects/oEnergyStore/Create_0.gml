@@ -6,7 +6,7 @@ scene_info = false;
 scene = 0;
 timer = 0;
 throwEnergyBall = false;
-throwEnergyBallTimer = room_speed / 2;
+throwEnergyBallTimer = room_speed * 2;
 dead = false;
 energy = "infinite";
 discharge = false;
@@ -17,14 +17,12 @@ life = 100;
 lightColor = c_green;
 withinRange = false;
 lightSize = 500;
-dontDestroy = false;
+dontDestroy = true;
 showDeath = true;
 explosionStarted = false;
 explosionFluid = false;
 rope = false;
 smoke = false;
-spriteHeight = sprite_height;
-deathScene = [
-	[Explode, 5],
-	[Smoke]
+scene_info = [
+	[Explode, 5]
 ]
