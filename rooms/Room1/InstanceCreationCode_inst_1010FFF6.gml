@@ -1,3 +1,4 @@
+dontDestroy = false;
 interactable = true;
 value = 100;
 comparativeLabel = "Energy";
@@ -8,5 +9,4 @@ scene_info = [
 	[MoveObject, inst_1DAD5165, 1309, 2950],
 	[MoveObject, inst_66697B54, 1389, 2935],
 	[MoveObject, inst_16171BD5, 1472, 2908]
-
 ]

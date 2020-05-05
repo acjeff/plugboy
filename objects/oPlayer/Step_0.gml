@@ -2,6 +2,19 @@ phy_rotation = false;
 
 touchingGround = place_meeting(x, y + 2, oSurface) || place_meeting(x, y + 2, oEnemy) || place_meeting(x, y + 2, oWall);
 
+var i;
+	var enemiesAlive = 0;
+	for (i = 0; i < instance_number(oEnemy); i ++)
+	 { 
+			with (instance_find(oEnemy,i)) { 
+					if (!dead) {
+						enemiesAlive++; 
+					}
+				}
+	   }
+
+global.enemiesAlive = enemiesAlive;
+
 leftDirX = x-32;
 leftDirY = y-32;
 rightDirX = x+32;

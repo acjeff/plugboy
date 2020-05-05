@@ -18,15 +18,15 @@ else {
 						draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Press E to interact")
 					}
 				}
-				else if (clearEnemies && instance_number(oEnemy) == 0) {
+				else if (clearEnemies && global.enemiesAlive == 0) {
 					with (oGlowbie) {
 						draw_text(oGlowbie.x - 30, oGlowbie.y - 120, "Press E to interact")
 					}
 				}
 			}
-			if (clearEnemies && instance_number(oEnemy) > 0) {
+			if (clearEnemies && global.enemiesAlive) {
 				with (oGlowbie) {
-					draw_text(oGlowbie.x - 30, oGlowbie.y - 140, "Need to clear " + string(instance_number(oEnemy)) + " enemies");	
+					draw_text(oGlowbie.x - 30, oGlowbie.y - 140, "Need to clear " + string(global.enemiesAlive) + " enemies");	
 				}
 			}
 			if (interactable && (global.energy < value)) {

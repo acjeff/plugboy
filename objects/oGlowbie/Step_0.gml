@@ -1,6 +1,6 @@
 toPoint = global.energy <  34 ? 200 : global.energy * 6
 
-withinRange = point_distance(oEnergyStore.x, oEnergyStore.y, oPlayer.x, oPlayer.y) < toPoint;
+if (instance_exists(oPlayer)) withinRange = point_distance(oEnergyStore.x, oEnergyStore.y, oPlayer.x, oPlayer.y) < toPoint;
 
 if (!withinRange) imageIndex = GlowbieBlue;
 
