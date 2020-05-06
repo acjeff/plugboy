@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "5452fd4a-f07e-4202-b5dc-cd1569a2b8b7",
+            "Value": {
+                "id": "d4907ac4-56a7-498b-9a75-93ac145136eb",
+                "resourcePath": "scripts\\GlowbieChangeFollow\\GlowbieChangeFollow.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "548aa790-15f3-42c2-8604-22c5db444327",
             "Value": {
                 "id": "63fd219e-5078-4b8f-b115-beab722f63c8",
@@ -643,6 +651,14 @@
             "Value": {
                 "id": "1a4ff056-31ad-41a5-a6b3-91749534c6b1",
                 "resourcePath": "scripts\/fd_rectangle_get_collision_mask_surface\/fd_rectangle_get_collision_mask_surface.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "645ce695-3b11-4c56-903b-02159d6e34e0",
+            "Value": {
+                "id": "e0e31441-54a1-46b9-b4d8-57197af1b72d",
+                "resourcePath": "scripts\\ChangeEnergyProxObject\\ChangeEnergyProxObject.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -931,6 +947,14 @@
             "Value": {
                 "id": "32cd3fe9-f026-4a39-8f06-11d4efca6453",
                 "resourcePath": "scripts\/fd_rectangle_assure_surfaces_exist\/fd_rectangle_assure_surfaces_exist.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "824df498-ecf3-4d10-adb0-d65bf745d85b",
+            "Value": {
+                "id": "517e0778-dce4-48a9-b84c-9ae0440d838d",
+                "resourcePath": "scripts\\ShowGlowbieExpression\\ShowGlowbieExpression.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1367,6 +1391,14 @@
             }
         },
         {
+            "Key": "b8a9e406-b760-4bbf-b5c3-107a2dee1eb2",
+            "Value": {
+                "id": "2a38559b-2df1-40a4-bbba-442e7cfedb1a",
+                "resourcePath": "objects\\oText\\oText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "be06791a-b1d8-45f3-860b-6ba430ecf963",
             "Value": {
                 "id": "28fff671-e7ca-43d6-94ee-19fc18391997",
@@ -1468,6 +1500,14 @@
                 "id": "853910fe-8ba7-4a45-8633-ef89b18c17e9",
                 "resourcePath": "shaders\/sh_fd_advect_velocity_0_glsl\/sh_fd_advect_velocity_0_glsl.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "c9bcbff1-e754-4070-b209-ab9d4817035b",
+            "Value": {
+                "id": "69f3c113-33a2-4be8-a83f-fbeec692308b",
+                "resourcePath": "fonts\\GlowbieExpressionFont\\GlowbieExpressionFont.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1943,7 +1983,10 @@
         "55309ed8-264e-4444-889b-101d91a97cad",
         "6944a871-5f66-4035-b0f8-80078a63f90b",
         "06c82c35-19ea-4795-86ae-7d23da3a1792",
-        "a11ff21c-5477-40ab-b321-70e693c5c08e"
+        "a11ff21c-5477-40ab-b321-70e693c5c08e",
+        "824df498-ecf3-4d10-adb0-d65bf745d85b",
+        "5452fd4a-f07e-4202-b5dc-cd1569a2b8b7",
+        "645ce695-3b11-4c56-903b-02159d6e34e0"
     ],
     "tutorial": ""
 }

@@ -1,3 +1,5 @@
+GTextObj = 0;
+ExpressionTimer = 0;
 ShowCutScene = false;
 scene_info = false;
 scene = 0;

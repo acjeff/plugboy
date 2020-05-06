@@ -2,7 +2,7 @@ toPoint = global.energy <  34 ? 200 : global.energy * 6
 if (life < 0) life = 0;
 if (energy != "infinite" && energy < 0) energy = 0;
 if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
-	withinRange = point_distance(x, y, oPlayer.x, oPlayer.y) < toPoint;
+	withinRange = point_distance(x, y, global.energyProxObj.x, global.energyProxObj.y) < toPoint;
 	if (!dead) {
 		if (discharge) {
 				if (withinRange) {
@@ -58,7 +58,7 @@ if (instance_exists(oGlowbie) && instance_exists(oPlayer)) {
 			var esDischarge = discharge;
 			var esBeingAttatcked = beingAttacked;
 			var esThrowEnergyBall = throwEnergyBall;
-			var distance = point_distance(x, y, oGlowbie.x, oGlowbie.y);
+			var distance = point_distance(x, y, global.energyProxObj.x, global.energyProxObj.y);
 					
 			//ROPE LOGIC
 			if (!rope) {

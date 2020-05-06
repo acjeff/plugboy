@@ -14,10 +14,6 @@ if (instance_exists(target)) {
 		}
 
 	}
-	else {
-		followDirectionX = 0;
-		followDirectionY = 0;
-	}
 
 	targetX = target.x + followDirectionX;
 	targetY = target.y + followDirectionY;

@@ -4,5 +4,7 @@ scene_info = [
 	[EnablePhysics],
 	[CutSceneWait, 2],
 	[AddRealGlowbie],
+	[CutSceneWait, 2],
+	[ShowGlowbieExpression, "!", 1],
 	[EndCutScene]
 ]
