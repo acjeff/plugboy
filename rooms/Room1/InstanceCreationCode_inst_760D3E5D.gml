@@ -1,7 +1,7 @@
 scene_info = [
 	[PlayCutScene],
 	[CutSceneWait, 1],
-	[MoveCameraToFollow, oGlowbie, 640, 320],
+	[MoveCameraToFollow, oGlowbie, 1024, 576],
 	[CutSceneWait, 2],
 	[ShowGlowbieExpression, "!", 1],
 	[ChangeEnergyProxObject, oGlowbie],
@@ -9,6 +9,6 @@ scene_info = [
 	[CutSceneWait, 4],
 	[ShowGlowbieExpression, "?", 1],
 	[CutSceneWait, 3],
-	[MoveCameraToFollow, oPlayer, 1920, 1080],
+	[MoveCameraToFollow, oPlayer, 1024, 576],
 	[EndCutScene]
 ]

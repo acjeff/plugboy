@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "21d215a0-dfc1-45fb-afa1-dd0acf98bd4a",
+            "Value": {
+                "id": "9fbcabbb-0811-4ded-acdd-808f4f338ea2",
+                "resourcePath": "tilesets\/tsTempBg\/tsTempBg.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "22aed111-b632-4cb0-a13c-94e8cf8377d5",
             "Value": {
                 "id": "b0f644e5-99c5-4280-be26-620dc77f3c8b",
@@ -546,7 +554,7 @@
             "Key": "5452fd4a-f07e-4202-b5dc-cd1569a2b8b7",
             "Value": {
                 "id": "d4907ac4-56a7-498b-9a75-93ac145136eb",
-                "resourcePath": "scripts\\GlowbieChangeFollow\\GlowbieChangeFollow.yy",
+                "resourcePath": "scripts\/GlowbieChangeFollow\/GlowbieChangeFollow.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -658,7 +666,7 @@
             "Key": "645ce695-3b11-4c56-903b-02159d6e34e0",
             "Value": {
                 "id": "e0e31441-54a1-46b9-b4d8-57197af1b72d",
-                "resourcePath": "scripts\\ChangeEnergyProxObject\\ChangeEnergyProxObject.yy",
+                "resourcePath": "scripts\/ChangeEnergyProxObject\/ChangeEnergyProxObject.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -954,7 +962,7 @@
             "Key": "824df498-ecf3-4d10-adb0-d65bf745d85b",
             "Value": {
                 "id": "517e0778-dce4-48a9-b84c-9ae0440d838d",
-                "resourcePath": "scripts\\ShowGlowbieExpression\\ShowGlowbieExpression.yy",
+                "resourcePath": "scripts\/ShowGlowbieExpression\/ShowGlowbieExpression.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1108,6 +1116,14 @@
                 "id": "9dab8d84-8546-4713-a0d5-50ff6cb01759",
                 "resourcePath": "objects\/oCheckpoint\/oCheckpoint.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9bb1dda6-f0dc-4bd9-b252-a6d4f269dae9",
+            "Value": {
+                "id": "6cab4d7a-931b-4597-aa56-228cb05fe7a8",
+                "resourcePath": "sprites\/sTempBg\/sTempBg.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1394,7 +1410,7 @@
             "Key": "b8a9e406-b760-4bbf-b5c3-107a2dee1eb2",
             "Value": {
                 "id": "2a38559b-2df1-40a4-bbba-442e7cfedb1a",
-                "resourcePath": "objects\\oText\\oText.yy",
+                "resourcePath": "objects\/oText\/oText.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1506,7 +1522,7 @@
             "Key": "c9bcbff1-e754-4070-b209-ab9d4817035b",
             "Value": {
                 "id": "69f3c113-33a2-4be8-a83f-fbeec692308b",
-                "resourcePath": "fonts\\GlowbieExpressionFont\\GlowbieExpressionFont.yy",
+                "resourcePath": "fonts\/GlowbieExpressionFont\/GlowbieExpressionFont.yy",
                 "resourceType": "GMFont"
             }
         },
