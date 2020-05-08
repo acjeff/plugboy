@@ -1,3 +1,4 @@
+rope = 0;
 color = c_white;
 lightSize = 799;
 targetX = 0;

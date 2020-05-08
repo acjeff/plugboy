@@ -1,3 +1,4 @@
+global.paused = 0;
 draw_set_font(StandardFont);
 showDead = false;
 wait = room_speed * 3;

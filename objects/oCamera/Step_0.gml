@@ -1,3 +1,5 @@
+if (global.paused) exit;
+
 //Update destination
 if (instance_exists(follow)) {
 	xTo = follow.x;

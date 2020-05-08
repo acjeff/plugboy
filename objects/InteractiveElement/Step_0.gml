@@ -51,7 +51,7 @@ else {
 
 }
 
-if (interacting) {
+if (interacting && !global.paused) {
 	var current_scene = scene_info[scene];
 
 	var len = array_length_1d(current_scene) - 1;

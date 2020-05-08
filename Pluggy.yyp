@@ -455,11 +455,27 @@
             }
         },
         {
+            "Key": "3e351958-8d6b-4b3b-a0e9-b59b61af3556",
+            "Value": {
+                "id": "4d1e45ef-f8d0-410d-9e74-37b254460191",
+                "resourcePath": "sprites\/sPauseScreen\/sPauseScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "40419a81-88b5-4243-b48d-986bf3165038",
             "Value": {
                 "id": "26e58bdc-e190-4952-9162-8a6dd7ad8859",
                 "resourcePath": "views\/40419a81-88b5-4243-b48d-986bf3165038.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "41a47512-8c07-4ec6-a020-4c368a319274",
+            "Value": {
+                "id": "29ef27f5-c308-455e-94aa-440eabd94bcc",
+                "resourcePath": "objects\/oPauseScreen\/oPauseScreen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -539,6 +555,14 @@
             "Value": {
                 "id": "918751c3-67e4-4fdb-8c57-9cc1b4a94dee",
                 "resourcePath": "scripts\/oGlowbieFollowState\/oGlowbieFollowState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4fc7da9f-4df7-46d0-afb1-7823c22aeaea",
+            "Value": {
+                "id": "602bdd1b-5b00-486c-a027-c93607d57cf3",
+                "resourcePath": "scripts\/TogglePaused\/TogglePaused.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1155,6 +1179,14 @@
             "Value": {
                 "id": "8c4020f1-040b-4a02-8bb2-d98cb99b8330",
                 "resourcePath": "scripts\/fd_rectangle_get_collision_mask_sprite_image\/fd_rectangle_get_collision_mask_sprite_image.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a00c06b4-658a-456b-ae7e-b8c0d4cf4bed",
+            "Value": {
+                "id": "351c50f8-2df8-4fd3-8111-eba798d8fd58",
+                "resourcePath": "scripts\/ExitGame\/ExitGame.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1807,6 +1839,14 @@
             }
         },
         {
+            "Key": "f3a0bc11-25c4-4e8c-b2a2-f83fa107c4a1",
+            "Value": {
+                "id": "eab3854d-b7a0-4b18-a7a7-379d44df9115",
+                "resourcePath": "scripts\/DrawRope\/DrawRope.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "2ef816ec-e663-462e-a3bf-27ad490d28ac",
@@ -2051,7 +2091,10 @@
         "824df498-ecf3-4d10-adb0-d65bf745d85b",
         "5452fd4a-f07e-4202-b5dc-cd1569a2b8b7",
         "645ce695-3b11-4c56-903b-02159d6e34e0",
-        "98a9a6c8-53a8-4053-a2a3-d5b360545bf1"
+        "98a9a6c8-53a8-4053-a2a3-d5b360545bf1",
+        "f3a0bc11-25c4-4e8c-b2a2-f83fa107c4a1",
+        "4fc7da9f-4df7-46d0-afb1-7823c22aeaea",
+        "a00c06b4-658a-456b-ae7e-b8c0d4cf4bed"
     ],
     "tutorial": ""
 }
