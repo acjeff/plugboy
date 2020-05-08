@@ -1,0 +1,1 @@
+indexToDraw = 0;

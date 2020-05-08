@@ -1,0 +1,1 @@
+oTitleScreen.indexToDraw = 0;

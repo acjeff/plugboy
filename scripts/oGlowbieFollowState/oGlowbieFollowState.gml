@@ -20,8 +20,8 @@ if (instance_exists(target)) {
 }
 
 	// Update object position
-	x += ((targetX) - x) / (random_range(15, 20));
-	y += ((targetY) - y) / (random_range(15, 20));
+	x += round(((targetX) - x) / (random_range(15, 20)));
+	y += round(((targetY) - y) / (random_range(15, 20)));
 
 	//if (lightSize < 800) lightGrowShrink = random_range(1, 4);
 	//if (lightSize > 1000) lightGrowShrink = random_range(-1, -4);

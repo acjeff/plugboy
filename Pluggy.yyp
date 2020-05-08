@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "6a0e30d8-7d31-4cff-a98b-67137ec2f20a",
+            "Value": {
+                "id": "5875bf53-dc0b-46be-9b17-29a423643198",
+                "resourcePath": "rooms\/PreGameMenu\/PreGameMenu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6aed50a4-9ffe-4ce4-9983-db0b156f0b91",
             "Value": {
                 "id": "4744fcdd-76b2-4185-8740-b288daa577df",
@@ -991,6 +999,14 @@
             }
         },
         {
+            "Key": "871a0d7b-0898-49f7-9ba2-a07fbf786b86",
+            "Value": {
+                "id": "4fc12eec-04db-469e-ae90-b3601c746249",
+                "resourcePath": "sprites\/sTitleScreen\/sTitleScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "87bf01ec-5a35-4eba-888a-7a3c8b806eb3",
             "Value": {
                 "id": "f126568f-57f9-4ac7-85e3-5ef1889ff892",
@@ -1075,6 +1091,14 @@
             "Value": {
                 "id": "c223da98-d5b6-4830-9081-974212109a3c",
                 "resourcePath": "scripts\/fd_rectangle_destroy\/fd_rectangle_destroy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "98a9a6c8-53a8-4053-a2a3-d5b360545bf1",
+            "Value": {
+                "id": "d78dc7dc-d942-4aab-b2a0-c78dd05b7b22",
+                "resourcePath": "scripts\/StartNewGame\/StartNewGame.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1223,6 +1247,14 @@
             }
         },
         {
+            "Key": "a597f672-1d30-409f-bb70-2e910f06b28b",
+            "Value": {
+                "id": "961d9eb7-a05a-46b1-833a-3ecb572e37e6",
+                "resourcePath": "sprites\/EmptyBox\/EmptyBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a5f2bdfc-1ae1-41b2-9153-f4b3fc8bc9da",
             "Value": {
                 "id": "6615ce6a-b979-4aa1-9b0f-1d684d1c6d76",
@@ -1324,6 +1356,14 @@
                 "id": "bdf00c4a-a16b-4b91-ae4a-6f1d4b7e595d",
                 "resourcePath": "scripts\/fd_rectangle_set_collision_mask_surface\/fd_rectangle_set_collision_mask_surface.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "aa7df3e4-1f85-49b1-bccf-5749b758917c",
+            "Value": {
+                "id": "d6665761-7e82-4b7e-bbe9-21e83d374b04",
+                "resourcePath": "objects\/oTitleScreenButton\/oTitleScreenButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1604,6 +1644,14 @@
                 "id": "7613b056-40eb-48b3-aa43-069ef67450eb",
                 "resourcePath": "views\/d8c89dd6-3ee5-4104-984e-9bf4057734ee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d95747fd-aedb-486f-aa04-c5828f55c66c",
+            "Value": {
+                "id": "b52f55fe-8f3c-495e-a6f8-378c7ab003cf",
+                "resourcePath": "objects\/oTitleScreen\/oTitleScreen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2002,7 +2050,8 @@
         "a11ff21c-5477-40ab-b321-70e693c5c08e",
         "824df498-ecf3-4d10-adb0-d65bf745d85b",
         "5452fd4a-f07e-4202-b5dc-cd1569a2b8b7",
-        "645ce695-3b11-4c56-903b-02159d6e34e0"
+        "645ce695-3b11-4c56-903b-02159d6e34e0",
+        "98a9a6c8-53a8-4053-a2a3-d5b360545bf1"
     ],
     "tutorial": ""
 }

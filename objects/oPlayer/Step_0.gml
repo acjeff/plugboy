@@ -45,6 +45,9 @@ if ((touchingGround || Jumping) && !global.freezeMovement) {
 	}
 }
 
+x = round(x);
+y = round(y);
+
 if (y > room_height) {
 	global.life = 0;
 }
