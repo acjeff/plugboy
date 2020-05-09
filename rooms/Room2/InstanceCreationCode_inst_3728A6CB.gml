@@ -1,1 +1,0 @@
-global.energy = 50;

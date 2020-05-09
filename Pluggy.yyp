@@ -919,6 +919,14 @@
             }
         },
         {
+            "Key": "782858e0-a1c7-4f9e-926e-d514b877de10",
+            "Value": {
+                "id": "a54ddb23-b617-48a8-9692-fc13e1c131f1",
+                "resourcePath": "objects\/oLoader\/oLoader.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "79b154b2-eaa8-4b28-8c9d-c1b1aaab188b",
             "Value": {
                 "id": "0ff90a2b-eac3-4f50-94eb-19cadac98fe3",
@@ -1399,6 +1407,14 @@
             }
         },
         {
+            "Key": "aad0692d-d3b6-4a85-bb53-a76ffefc6b92",
+            "Value": {
+                "id": "d9ee00f3-ef50-446f-abef-48b10add00a7",
+                "resourcePath": "scripts\/LoadGame\/LoadGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "abf9a99e-3055-489e-9bc2-b1db94c512a9",
             "Value": {
                 "id": "b8303587-8a7f-48cf-b71b-b1652151efbc",
@@ -1428,6 +1444,14 @@
                 "id": "89a919b6-0bb2-4514-baae-8a5284cfc2f8",
                 "resourcePath": "shaders\/sh_fd_advect_material_a_16_glsl\/sh_fd_advect_material_a_16_glsl.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "b1569ca0-5695-4ed7-9c3a-bfe41128e4ea",
+            "Value": {
+                "id": "17bcd941-960b-49e7-96bd-94f06f64a60b",
+                "resourcePath": "scripts\/SaveGame\/SaveGame.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2094,7 +2118,9 @@
         "98a9a6c8-53a8-4053-a2a3-d5b360545bf1",
         "f3a0bc11-25c4-4e8c-b2a2-f83fa107c4a1",
         "4fc7da9f-4df7-46d0-afb1-7823c22aeaea",
-        "a00c06b4-658a-456b-ae7e-b8c0d4cf4bed"
+        "a00c06b4-658a-456b-ae7e-b8c0d4cf4bed",
+        "b1569ca0-5695-4ed7-9c3a-bfe41128e4ea",
+        "aad0692d-d3b6-4a85-bb53-a76ffefc6b92"
     ],
     "tutorial": ""
 }
