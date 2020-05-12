@@ -1,1 +1,1 @@
-TogglePaused();
+if (instance_exists(oPlayer)) TogglePaused();

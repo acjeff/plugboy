@@ -1,6 +1,6 @@
 /// @desc Set up camera
 global.playingCutScene = false;
-display_set_gui_size(1024, 576);
+display_set_gui_size(1920, 1080);
 
 
 global.cam = view_camera[0];
