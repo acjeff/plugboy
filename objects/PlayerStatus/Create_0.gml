@@ -3,7 +3,6 @@ draw_set_font(StandardFont);
 showDead = false;
 wait = room_speed * 3;
 global.inGame = true;
-global.pauseScreen = false;
 
 ini_open("saveData.ini");
 

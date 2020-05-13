@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "386c7dc7-1e47-4ae6-9255-2dbf54ce5495",
+            "Value": {
+                "id": "4859ca20-e521-485c-b79e-dc00cff8ada9",
+                "resourcePath": "scripts\/IsMouseOverBox\/IsMouseOverBox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "388d1dec-3d93-43da-9aed-2328ee502e55",
             "Value": {
                 "id": "eee4e240-c8c1-4d8d-8b40-4a84725a9709",
@@ -1751,6 +1759,14 @@
             }
         },
         {
+            "Key": "e5431d91-9085-4aba-954c-63e707874a3c",
+            "Value": {
+                "id": "fa7ba578-323c-4aed-9fbd-36e27e7a8408",
+                "resourcePath": "sprites\/sNPCExample\/sNPCExample.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e5c482f2-189d-4c4f-95c2-fa90aca770cd",
             "Value": {
                 "id": "62f255c4-abdd-4b50-bac5-2c947ebc7270",
@@ -1932,6 +1948,14 @@
                 "id": "1aa9fa06-ad47-464b-9007-34a620fb7314",
                 "resourcePath": "views\/fa998b1e-748c-4b04-82ec-22d00fe5f66f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fc1897fa-4be2-4d40-be06-480ee7ec8d4e",
+            "Value": {
+                "id": "18b7ac1e-6600-44d1-a966-16163b565d42",
+                "resourcePath": "objects\/NPC\/NPC.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2120,7 +2144,8 @@
         "4fc7da9f-4df7-46d0-afb1-7823c22aeaea",
         "a00c06b4-658a-456b-ae7e-b8c0d4cf4bed",
         "b1569ca0-5695-4ed7-9c3a-bfe41128e4ea",
-        "aad0692d-d3b6-4a85-bb53-a76ffefc6b92"
+        "aad0692d-d3b6-4a85-bb53-a76ffefc6b92",
+        "386c7dc7-1e47-4ae6-9255-2dbf54ce5495"
     ],
     "tutorial": ""
 }

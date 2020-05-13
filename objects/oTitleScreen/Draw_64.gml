@@ -5,41 +5,36 @@ var saveFileExists = file_exists("saveData.ini");
 var mouseX = device_mouse_x_to_gui(0);
 var mouseY = device_mouse_y_to_gui(0);
 
-//Resume mouseover
-var allXStart = 95;
-var buttonHeight = 113;
+var allX = 95;
+var boxHeight = 113;
 
-var continueXEnd = allXStart+286;
-var continueYStart = 316;
-var continueYEnd = continueYStart+buttonHeight;
+var continueY = 316;
+var continueWidth = 286;
 
-var startNewXEnd = allXStart+309;
-var startNewYStart = 465;
-var startNewYEnd = startNewYStart+buttonHeight;
+var startNewY = 465;
+var startNewWidth = 309;
 
-var settingsXEnd = allXStart+269;
-var settingsYStart = 611;
-var settingsYEnd = settingsYStart+buttonHeight;
+var settingsY = 611;
+var settingsWidth = 269;
 
-var exitXEnd = allXStart+168;
-var exitYStart = 757;
-var exitYEnd = exitYStart+buttonHeight;
+var exitY = 757;
+var exitXEnd = 168;
 
-if ((mouseX > allXStart) && (mouseX < continueXEnd) && (mouseY > continueYStart) && (mouseY < continueYEnd) && saveFileExists) {
+if (IsMouseOverBox(allX, continueY, continueWidth, boxHeight, mouseX, mouseY) && saveFileExists) {
 	hoveredOver = "continue";
 	image_index = 5;
 }
-else if ((mouseX > allXStart) && (mouseX < startNewXEnd) && (mouseY > startNewYStart) && (mouseY < startNewYEnd)) {
+else if (IsMouseOverBox(allX, startNewY, startNewWidth, boxHeight, mouseX, mouseY)) {
 	hoveredOver = "startnew";
 	if (saveFileExists) image_index = 6;
 	else image_index = 1;
 }
-else if ((mouseX > allXStart) && (mouseX < settingsXEnd) && (mouseY > settingsYStart) && (mouseY < settingsYEnd)) {
+else if (IsMouseOverBox(allX, settingsY, settingsWidth, boxHeight, mouseX, mouseY)) {
 	hoveredOver = "settings";
 	if (saveFileExists) image_index = 7;
 	else image_index = 2;
 }
-else if ((mouseX > allXStart) && (mouseX < exitXEnd) && (mouseY > exitYStart) && (mouseY < exitYEnd)) {
+else if (IsMouseOverBox(allX, exitY, exitXEnd, boxHeight, mouseX, mouseY)) {
 	hoveredOver = "exit";
 	if (saveFileExists) image_index = 8;
 	else image_index = 3;

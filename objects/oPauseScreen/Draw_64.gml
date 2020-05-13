@@ -5,29 +5,27 @@ var mouseX = device_mouse_x_to_gui(0);
 var mouseY = device_mouse_y_to_gui(0);
 
 //Resume mouseover
-var allXStart = 95;
+var allX = 95;
+var boxHeight = 113;
 
-var resumeXEnd = 95+254;
-var resumeYStart = 316;
-var resumeYEnd = 316+113;
+var resumeY = 316;
+var resumeWidth = 254;
 
-var settingsXEnd = 95+270;
-var settingsYStart = 464;
-var settingsYEnd = 464+113;
+var settingsY = 464;
+var settingsWidth = 270;
 
-var exitXEnd = 95+168;
-var exitYStart = 612;
-var exitYEnd = 612+113;
+var exitY = 612;
+var exitWidth = 168;
 
-if ((mouseX > allXStart) && (mouseX < resumeXEnd) && (mouseY > resumeYStart) && (mouseY < resumeYEnd)) {
+if (IsMouseOverBox(allX, resumeY, resumeWidth, boxHeight, mouseX, mouseY)) {
 	hoveredOver = "resume";
 	image_index = 1;
 }
-else if ((mouseX > allXStart) && (mouseX < settingsXEnd) && (mouseY > settingsYStart) && (mouseY < settingsYEnd)) {
+else if (IsMouseOverBox(allX, settingsY, settingsWidth, boxHeight, mouseX, mouseY)) {
 	hoveredOver = "settings";
 	image_index = 2;
 }
-else if ((mouseX > allXStart) && (mouseX < exitXEnd) && (mouseY > exitYStart) && (mouseY < exitYEnd)) {
+else if (IsMouseOverBox(allX, exitY, exitWidth, boxHeight, mouseX, mouseY)) {
 	hoveredOver = "exit";
 	image_index = 3;
 }
