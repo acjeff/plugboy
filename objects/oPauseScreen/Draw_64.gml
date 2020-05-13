@@ -35,5 +35,6 @@ else {
 	image_index = 0;
 	hoveredOver = 0;	
 }
+show_debug_message("Load pause screen");
 
 draw_self();
