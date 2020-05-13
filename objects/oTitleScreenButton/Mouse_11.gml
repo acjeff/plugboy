@@ -3,4 +3,4 @@ if (instance_exists(oTitleScreen)) {
 	else oTitleScreen.indexToDraw = 0;
 	
 };
-if (instance_exists(oPauseScreen)) oPauseScreen.indexToDraw = 0;
+//if (instance_exists(oPauseScreen)) oPauseScreen.indexToDraw = 0;

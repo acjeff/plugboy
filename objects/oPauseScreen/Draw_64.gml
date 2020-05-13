@@ -1,3 +1,4 @@
+if (!global.paused) exit;
 depth = -999999999999999;
 
 var mouseX = device_mouse_x_to_gui(0);
